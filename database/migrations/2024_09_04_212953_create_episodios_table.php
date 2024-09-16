@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('episodio', function (Blueprint $table) {
+        Schema::create('episodios', function (Blueprint $table) {
             $table->id();
             $table->integer('consecutivo');
             $table->date('fecha');
